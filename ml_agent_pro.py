@@ -1988,8 +1988,28 @@ print(f"Probabilidades: {{dict(zip(le.classes_, prob[0]))}}")
 
 # ── Footer ───────────────────────────────────────────────────
 st.markdown("""
-<div style='text-align:center;padding:24px;color:#64748B;font-size:0.85rem;border-top:1px solid #1E293B;margin-top:32px'>
-    ML Agent Pro — Agente Inteligente de Machine Learning<br>
-    Pipeline automatizado de clasificación con explicabilidad
+<div style='
+    text-align:center;
+    padding:32px 24px 24px;
+    border-top:1px solid #1E293B;
+    margin-top:40px;
+'>
+    <p style='color:#10B981;font-size:0.95rem;font-weight:600;margin-bottom:6px;letter-spacing:0.05em'>
+        🤖 ML Agent Pro
+    </p>
+    <p style='color:#94A3B8;font-size:0.82rem;margin-bottom:16px'>
+        Agente Inteligente de Machine Learning · Pipeline automatizado de clasificación con explicabilidad
+    </p>
+    <div style='display:inline-flex;gap:24px;align-items:center;justify-content:center;
+                background:#131A2B;border:1px solid #1E293B;border-radius:12px;
+                padding:12px 28px;margin-bottom:8px'>
+        <span style='color:#64748B;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em'>Desarrollado por</span>
+        <span style='color:#E2E8F0;font-size:0.88rem;font-weight:600'>
+            ✦ Yarley Camilo Mejía &nbsp;·&nbsp; Victor Manuel Alzate ✦
+        </span>
+    </div>
+    <p style='color:#334155;font-size:0.75rem;margin-top:10px'>
+        Universidad · Semestre 12 · Inteligencia Artificial
+    </p>
 </div>
 """, unsafe_allow_html=True)
