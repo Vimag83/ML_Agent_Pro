@@ -2009,7 +2009,7 @@ st.markdown("""
         </span>
     </div>
     <p style='color:#334155;font-size:0.75rem;margin-top:10px'>
-        Universidad · Semestre 12 · Inteligencia Artificial
+        Universidad del Quindio · Inteligencia Artificial
     </p>
 </div>
 """, unsafe_allow_html=True)
